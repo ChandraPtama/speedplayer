@@ -1,0 +1,15 @@
+name: SpeedPlayer
+version: '1.0.0'
+main: id.speedplayer.SpeedPlayerPlugin
+api-version: '26.2'
+description: Menampilkan kecepatan player secara real-time melalui BossBar.
+author: Chandra
+commands:
+  speed:
+    description: Mengaktifkan atau menonaktifkan SpeedPlayer
+    usage: /speed [on|off]
+    permission: speedplayer.use
+permissions:
+  speedplayer.use:
+    description: Menggunakan perintah /speed
+    default: true
