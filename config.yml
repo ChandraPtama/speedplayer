@@ -1,0 +1,25 @@
+# SpeedPlayer configuration
+
+# How often the speed is updated. 2 ticks = 0.1 seconds.
+update-ticks: 2
+
+# Show the BossBar automatically when a player joins.
+show-on-join: true
+
+# BossBar progress is scaled against this speed.
+max-display-speed: 10.0
+
+# Ignore movement while inside a vehicle.
+ignore-vehicles: true
+
+# Ignore movement while in spectator mode.
+ignore-spectators: false
+
+# BossBar color thresholds (blocks/second).
+fast-threshold: 6.0
+very-fast-threshold: 10.0
+
+# BossBar colors: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+normal-color: GREEN
+fast-color: YELLOW
+very-fast-color: RED
